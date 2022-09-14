@@ -174,6 +174,11 @@ export interface PositionOptions {
   timeout?: number;
 
   /**
+   * The fastest interval in milliseconds for location updates
+   */
+  fastestInterval?: number;
+
+  /**
    * The maximum age in milliseconds of a possible cached position that is acceptable to return
    *
    * @default 0
